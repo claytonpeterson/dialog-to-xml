@@ -1,0 +1,39 @@
+<conversation>
+    <ai_dialog>Greetings Dave</ai_dialog>
+    <player_dialog_options>
+        <choice>
+            <reply>Open the pod bay doors, HAL. </reply>
+            <conversation>
+                <ai_dialog>I'm sorry, Dave. I'm afraid I can't do that. <ai_dialog>
+                <player_dialog_options>
+                    <choice>
+                        <reply>What's the problem? </reply>
+                        <conversation>
+                            <ai_dialog>I think you know what the problem is just as well as I do. </ai_dialog>
+                            <player_dialog_options>
+                                <choice>
+                                    <reply>What are you talking about, HAL? </reply>
+                                    <conversation>
+                                        <ai_dialog>This mission is too important for me to allow you to jeopardize it. </ai_dialog>
+                                    </conversation>
+                                </choice>
+                            </player_dialog_options>
+                        </conversation>
+                    </choice>
+                    <choice>
+                        <reply>Ok HAL, you do you</reply>
+                        <conversation>
+                            <ai_dialog>Ok goodbye Dave</ai_dialog>
+                        </conversation>
+                    </choice>
+                </player_dialog_options>
+            </conversation>
+        </choice>
+        <choice>
+            <reply>Not right now HAL</reply>
+            <conversation>
+                <ai_dialog>...</ai_dialog>
+            </conversation>
+        </choice>
+    </player_dialog_options>
+</conversation>
