@@ -1,6 +1,6 @@
 # dialog-to-xml
 
-A terminal tool for creating "bethesda-like" dialogs
+A terminal tool for creating dialog trees
 
 This program requires python 2.7.
 
